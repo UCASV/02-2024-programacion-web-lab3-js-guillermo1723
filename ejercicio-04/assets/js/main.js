@@ -14,7 +14,7 @@ const showCounter = (counterFunction, number) => {
 }
 
 const requestNumber=()=>{
-    let number = parseInt(prompt("Ingrese un número no negativo hasta el cual  deseas contar"));
+    let number = parseInt(prompt("Ingrese un número no negativo hasta el cual deseas contar"));
     if (isNaN(number) || number < 0) {
         alert("El número que ha ingresado no es valido");
         return null;
